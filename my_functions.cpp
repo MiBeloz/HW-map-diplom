@@ -1,12 +1,10 @@
-#include "my_functions.h"
+ï»¿#include "my_functions.h"
 
 
-void print_name() {
-	std::this_thread::sleep_for(2000ms);
-	std::cout << "Ìèõàèë" << std::endl;
+void print_name() noexcept {
+	std::cout << "ÐœÐ¸Ñ…Ð°Ð¸Ð»" << std::endl;
 }
 
-void print_surname() {
-	std::this_thread::sleep_for(1000ms);
-	std::cout << "Áåëîçåðîâ" << std::endl;
+void print_surname() noexcept {
+	std::cout << "Ð‘ÐµÐ»Ð¾Ð·ÐµÑ€Ð¾Ð²" << std::endl;
 }
