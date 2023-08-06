@@ -1,9 +1,7 @@
 ﻿#pragma once
 
 #include <iostream>
-#include <thread>
-
-using namespace std::chrono_literals;
+#include <mutex>
 
 
 void print_name() noexcept;
